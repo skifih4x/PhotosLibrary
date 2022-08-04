@@ -20,6 +20,7 @@
 		00FB320D288AEBF3003AA564 /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FB320C288AEBF3003AA564 /* SearchResults.swift */; };
 		00FB3211288AF5C6003AA564 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 00FB3210288AF5C6003AA564 /* SDWebImage */; };
 		00FB3213288AF5C6003AA564 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 00FB3212288AF5C6003AA564 /* SDWebImageMapKit */; };
+		00FB3215288AF5E7003AA564 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FB3214288AF5E7003AA564 /* PhotoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		00FB3207288AE080003AA564 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		00FB320A288AEB99003AA564 /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
 		00FB320C288AEBF3003AA564 /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
+		00FB3214288AF5E7003AA564 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				00FB31FD288ACE6F003AA564 /* Info.plist */,
 				00FB3203288ACEE5003AA564 /* MainTabBarController.swift */,
 				00FB3205288ACFF9003AA564 /* PhotosCollectionViewController.swift */,
+				00FB3214288AF5E7003AA564 /* PhotoCell.swift */,
 			);
 			path = PhotosLibrary;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00FB320B288AEB99003AA564 /* NetworkDataFetcher.swift in Sources */,
+				00FB3215288AF5E7003AA564 /* PhotoCell.swift in Sources */,
 				00FB31F4288ACE6E003AA564 /* ViewController.swift in Sources */,
 				00FB31F0288ACE6E003AA564 /* AppDelegate.swift in Sources */,
 				00FB3204288ACEE5003AA564 /* MainTabBarController.swift in Sources */,
